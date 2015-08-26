@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloLovely", "HelloLovely\HelloLovely.csproj", "{D18CCD0A-4695-4669-B7C7-01E7D1307454}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{0D4B3D2A-F186-469C-B251-EEB9722A1E11}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{5A08100A-493C-4B47-A3E6-6D6D24300E27}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\HelloLovely-WAWS-dev.json = PublishScripts\Configurations\HelloLovely-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D18CCD0A-4695-4669-B7C7-01E7D1307454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18CCD0A-4695-4669-B7C7-01E7D1307454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18CCD0A-4695-4669-B7C7-01E7D1307454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18CCD0A-4695-4669-B7C7-01E7D1307454}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A08100A-493C-4B47-A3E6-6D6D24300E27} = {0D4B3D2A-F186-469C-B251-EEB9722A1E11}
+	EndGlobalSection
+EndGlobal
