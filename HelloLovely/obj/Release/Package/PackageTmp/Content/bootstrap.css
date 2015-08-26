@@ -4384,7 +4384,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: white;
   border-color: #e7e7e7;
 }
 
@@ -4501,8 +4501,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #222222;
-  border-color: #080808;
+  background-color: white;
+  border-color: #ffccdd;
 }
 
 .navbar-inverse .navbar-brand {
@@ -4952,8 +4952,8 @@ a.list-group-item.active > .badge,
 
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 38px;
+    padding-bottom: 28px;
   }
   .container .jumbotron {
     padding-right: 60px;
