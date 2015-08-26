@@ -1,3 +1,21 @@
 ﻿.projects a {
-    color: pink;
+    color: #f1276a;
+}
+
+.projects div {
+    color: #999999
+}
+
+.skills {
+        color: #999999;
+
+}
+#skills ul li {
+              font-size: 14px;
+              color: #999999;
+
+}
+.name {
+                  color: #f1276a;
+
 }
