@@ -7,9 +7,22 @@
 
 <div class="list-group">
     <div class="row">
-        <a href="#arays" data-toggle="collapse" class="list-group-item"><h4>Arrays</h4></a>
-        <div id="arrays" class="collapse">
+        <a href="#arayLabs" data-toggle="collapse" class="list-group-item"><h4>Arrays</h4></a>
+        <div id="arayLabs" class="collapse">
+            <div class="col-md-1">
+                <h5><b>Sum</b></h5>
+            </div>
+            <div class="col-md-10">
+                <p>Given an array of ints, return the sum of all the elements. </p>
+                <select id="sumArrayDropdown" class="btn btn-default">
+                    <option value="1, 2, 3">1, 2, 3</option>
+                    <option value="5,11,2">5,11,2</option>
+                    <option value="7,0,0">7,0,0</option>
+                </select>
 
+                <button id="sumArray" class="btn btn-primary btn-sm">Submit</button>
+                <p><em id="sumArrayResult"></em></p>
+            </div>
         </div>
     </div>
 
@@ -17,19 +30,43 @@
         <a href="#conditionals" data-toggle="collapse" class="list-group-item"><h4>Conditionals</h4></a>
         <div id="conditionals" class="collapse">
 
+            @* START *@
+            <div class="col-md-1">
+                <h5><b>GotE</b></h5>
+            </div>
+            <div class="col-md-10">
+                <p>Return true if the given string contains between 1 and 3 'e' chars.</p>
+                <select id="GotEDropdown" class="btn btn-default">
+                    <option value="Hello">Hello</option>
+                    <option value="Heelle">Heelle</option>
+                    <option value="Hxix">Heelele</option>
+                </select>
+
+                <button id="GotE" class="btn btn-primary btn-sm">Submit</button>
+                <p><em id="GotEresult"></em></p>
+            </div>
+            @* END *@
+
+
         </div>
-    </div>
+
+        </div>
 
 
     <div class="row">
-        <a href="#strings" data-toggle="collapse" class="list-group-item active"><h4>Strings</h4></a>
+        <a href="#strings" data-toggle="collapse" class="list-group-item"><h4>Strings</h4></a>
         <div id="strings" class="collapse">
             <div class="col-md-1">
                 <h5><b>StripX</b></h5>
             </div>
                 <div class="col-md-10">
                     <p>Given a string, if the first or last chars are 'x', return the string without those 'x' chars, and otherwise return the string unchanged.</p>
-                    <p>Example: xHix </p>
+                    <select id="stripXDropdown" class="btn btn-default">
+                        <option value="xHix">xHix</option>
+                        <option value="xHi">xHi</option>
+                        <option value="Hxix">Hxix</option>
+                    </select>
+
                     <button id="stripX" class="btn btn-primary btn-sm">Submit</button>
                     <p><em id="stripXresult"></em></p>
                 </div>
@@ -39,6 +76,21 @@
     <div class="row">
         <a href="#logic" data-toggle="collapse" class="list-group-item"><h4>Logic</h4></a>
         <div id="logic" class="collapse">
+
+            <div class="col-md-1">
+                <h5><b>Mod35</b></h5>
+            </div>
+            <div class="col-md-10">
+                <p>Return true if the given non-negative number is a multiple of 3 or 5, but not both </p>
+                <select id="mod35Dropdown" class="btn btn-default">
+                    <option value="3">3</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                </select>
+
+                <button id="mod35" class="btn btn-primary btn-sm">Submit</button>
+                <p><em id="mod35result"></em></p>
+            </div>
            
         </div>
     </div>
@@ -48,7 +100,21 @@
     <div class="row">
         <a href="#loops" data-toggle="collapse" class="list-group-item"><h4>Loops</h4></a>
         <div id="loops" class="collapse">
+            <div class="col-md-1">
+                <h5><b>AltPairs</b></h5>
+            </div>
+            <div class="col-md-10">
+                <p>Given a string, return a string made of the chars at indexes 0,1, 4,5, 8,9 ... so "kittens" yields "kien".
+ </p>
+                <select id="altPairsDropdown" class="btn btn-default">
+                    <option value="kitten">kitten</option>
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="CodingHorror">CodingHorror</option>
+                </select>
 
+                <button id="altPairs" class="btn btn-primary btn-sm">Submit</button>
+                <p><em id="altPairsResult"></em></p>
+            </div>
         </div>
     </div>
 
