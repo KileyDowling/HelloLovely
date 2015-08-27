@@ -1,4 +1,4 @@
-﻿.projects a {
+﻿#projects a {
     color: #f1276a;
 }
 
@@ -9,9 +9,37 @@
 
 }
 
+a {
+        color: #f1276a;
 
-.projects div {
-    color: #999999
+}
+
+
+.contact {
+    font-size: 14px;
+}
+.learnMore a span {
+    color: #f1276a;
+    font-size: 14px;
+}
+
+#contact a {
+            color: #999999;
+}
+
+.learnMore {
+        color: #999999;
+        background-color: #e69ab3;
+        font-size: 15px;
+        
+
+}
+.learnMore h3 {
+    margin-top: 10px;
+  margin-bottom: 10px;
+}
+#projects div {
+    color: #999999;
 }
 
 .skills {
@@ -19,7 +47,7 @@
 
 }
 #skills ul li {
-              font-size: 14px;
+              font-size: 15px;
               color: #999999;
 
 }
