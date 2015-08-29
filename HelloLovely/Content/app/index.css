@@ -1,4 +1,5 @@
-﻿#projects a {
+﻿
+#projects a {
     color: #f1276a;
 }
 
@@ -14,6 +15,11 @@ a {
 
 }
 
+#fullName {
+    font-family: 'The Girl Next Door', cursive;
+        color: #f1276a;
+
+}
 
 .contact {
     font-size: 14px;
@@ -39,7 +45,10 @@ a {
 }
 #projects div {
     color: #999999;
+    font-size: 15px;
 }
+
+
 
 .skills {
         color: #999999;
@@ -52,5 +61,12 @@ a {
 }
 .name {
                   color: #f1276a;
+
+}
+
+.projectName {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #f1276a;
 
 }

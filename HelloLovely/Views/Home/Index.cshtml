@@ -8,8 +8,7 @@
             <img src="~/img/cZDgoyjC.jpg" style="border-radius: 50%" width="240" height="240" />
         </div>
         <div class="col-md-9">
-
-            <img src="~/img/kdowling.jpg" width="260" />
+            <img src="~/img/kileydowling.jpg" width="260" />
             <h3 class="skills">Junior C#/.NET Developer </h3>
             <div id="skills">
                 <ul>
@@ -23,9 +22,12 @@
 
         <div class="learnMore">
             <div class="col-md-2">
+
                 <h3>
                     Projects <a href="#projects" data-toggle="collapse"><span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span></a>
                 </h3>
+
+
             </div>
             <div class="col-md-2">
                 <h3>
@@ -45,96 +47,108 @@
                 </address>
             </div>
         </div>
-
-
     </div>
-
-</div>
-
 
 
 <div id="projects" class="collapse">
     <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-3">
-            <a href="#guild" data-toggle="collapse"><h3>Guild Projects</h3> </a>
-            <br />
-            <a href="#simple" data-toggle="collapse"><h3>Simple Programs</h3></a>
-            <br />
-            <a href="#labs" data-toggle="collapse"><h3>Labs & Exercises</h3></a>
-        </div>
-        <div class="col-md-7">
-            <div id="guild" class="collapse">
+        <div class="col-md-3"></div>
+        <div class="col-md-8">
 
+        <div id="accordion">
+            <h3><span class="projectName"><b>Guild Projects</b></span></h3>
+            <div>
                 <b>Technology Blog</b>
                 August 2015
-                <div>
-                    Developed a content management system as an ASP.NET MVC Web Application. The Tech Blog allowed an administrator to create content contributor accounts as well as create and manage all content. Content included blog posts, static pages, and comments. The project incorporated TinyMCE to allow the administrator to create styled posts without having to write any HTML. Public users could view approved posts, sort posts by hashtag/category, and submit comments for approval.
-                </div>
-
+                <p> Developed a content management system as an ASP.NET MVC Web Application. The Tech Blog allowed an administrator to create content contributor accounts as well as create and manage all content. Content included blog posts, static pages, and comments. The project incorporated TinyMCE to allow the administrator to create styled posts without having to write any HTML. Public users could view approved posts, sort posts by hashtag/category, and submit comments for approval.</p>
                 <br />
 
                 <b>HR Portal</b>
                 July 2015
-                <div>
-                    Developed ASP.NET MVC web application according to specifications. The HR Portal allows users to view and manage documents, employees, and timesheets. Includes WebAPI and AngularJS
-                </div>
+
+                <p>Developed ASP.NET MVC web application according to specifications. The HR Portal allows users to view and manage documents, employees, and timesheets. Includes WebAPI and AngularJS</p>
 
                 <br />
                 <b> Flooring Mastery Project</b>
                 June 2015
-                <div>
+                <p>
                     Developed a fully functioning console application based on an nTier architecture according to specifications. The application allows for reading and writing flooring orders.
-                </div>
-                <hr />
+                </p>
 
             </div>
-            <div id="simple" class="collapse">
-                <div>
-                    <p>
-                        <b>Tic Tac Toe</b>
-                        June 2015
-                    </p>
 
-                    <p>
-                        <b>Vending Machine</b>
-                        Spring 2015
-                    </p>
+            <h3><span class="projectName"><b>Simple Programs</b></span></h3>
+            <div>
+                <p>
+                    <b>Tic Tac Toe</b>
+                    June 2015
+                </p>
 
-                    <p>
-                        <b>Program with 2 Features</b>
-                        Spring 2015
-                    </p>
+                <p>
+                    <b>Vending Machine</b>
+                    Spring 2015
+                </p>
 
-                    <p>
-                        <b>Encrypt and Decrypt Message</b>
-                        Spring 2015
-                    </p>
+                <p>
+                    <b>Program with 2 Features</b>
+                    Spring 2015
+                </p>
 
-                    <p>
-                        <b>Without Operators</b>
-                        Spring 2015
-                    </p>
-                </div>
-                <hr />
+                <p>
+                    <b>Encrypt and Decrypt Message</b>
+                    Spring 2015
+                </p>
 
+                <p>
+                    <b>Without Operators</b>
+                    Spring 2015
+                </p>
             </div>
-            <div id="labs" class="collapse">
-                <div>
-                    <p><b>JavaScript <a href="/Portfolio/JavaScriptLabs"><span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span></a></b></p>
-                    <p><b>C#</b></p>
-                    <p><b>Coding Katas</b></p>
-                </div>
-
+            <h3><span class="projectName"><b>Labs & Exercises</b></span></h3>
+            <div>
+                <p><b>JavaScript <a href="/Portfolio/JavaScriptLabs"><span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span></a></b></p>
+                <p><b>C#</b></p>
+                <p><b>Coding Katas</b></p>
             </div>
+
+
         </div>
     </div>
 </div>
+   </div>
 
-@*<div class="projects">
+</div>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+
+@section scripts {
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#accordion').accordion({
+                heightStyle: "content",
+                icons: false
+            });
+        }
+);
+    </script>
+   
+   
+}
+
+@*<div id="projects" class="collapse">
         <div class="row">
-            <div class="col-md-4">
-                <a href="#guild" data-toggle="collapse"><h3>Guild Projects</h3></a>
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+                <a href="#guild" data-toggle="collapse"><h3>Guild Projects</h3> </a>
+                <br />
+                <a href="#simple" data-toggle="collapse"><h3>Simple Programs</h3></a>
+                <br />
+                <a href="#labs" data-toggle="collapse"><h3>Labs & Exercises</h3></a>
+            </div>
+            <div class="col-md-7">
                 <div id="guild" class="collapse">
 
                     <b>Technology Blog</b>
@@ -157,11 +171,9 @@
                     <div>
                         Developed a fully functioning console application based on an nTier architecture according to specifications. The application allows for reading and writing flooring orders.
                     </div>
-                </div>
-            </div>
+                    <hr />
 
-            <div class="col-md-4">
-                <a href="#simple" data-toggle="collapse"><h3>Simple Programs</h3></a>
+                </div>
                 <div id="simple" class="collapse">
                     <div>
                         <p>
@@ -189,13 +201,9 @@
                             Spring 2015
                         </p>
                     </div>
+                    <hr />
+
                 </div>
-
-            </div>
-
-            <div class="col-md-4">
-
-                <a href="#labs" data-toggle="collapse"><h3>Labs & Exercises</h3></a>
                 <div id="labs" class="collapse">
                     <div>
                         <p><b>JavaScript <a href="/Portfolio/JavaScriptLabs"><span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span></a></b></p>
