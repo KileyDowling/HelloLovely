@@ -52,64 +52,83 @@
 
 <div id="projects" class="collapse">
     <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-9">
+        <div class="col-md-1"></div>
+        <div class="col-md-11">
 
         <div id="accordion">
             <h3><span class="projectName"><b>Guild Projects</b></span></h3>
             <div>
                 <b>Technology Blog</b>
-                August 2015 <a href="#techblog" data-toggle="collapse"><span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span></a>
-                <div id="techblog" class="collapse">
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                            <li data-target="#myCarousel" data-slide-to="3"></li>
-                        </ol>
+                August 2015 <a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span></a>
 
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
+                    <div id="myModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
 
-                                <div style="background:url(/img/tbcms/TBCMS.jpg) center center;
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Tech Blog CMS</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="item active">
+
+                                                <div style="background:url(/img/tbcms/TBCMS.jpg) center center;
           background-size:cover;" class="slider-size"></div>
 
-                            </div>
+                                            </div>
 
-                            <div class="item">
+                                            <div class="item">
 
-                                <div style="background:url(/img/tbcms/DraftPost.jpg) center center;
+                                                <div style="background:url(/img/tbcms/DraftPost.jpg) center center;
           background-size:cover;" class="slider-size"></div>
-                            </div>
+                                            </div>
 
-                            <div class="item">
+                                            <div class="item">
 
-                                <div style="background:url(/img/tbcms/PendingApprovals.jpg) center center;
+                                                <div style="background:url(/img/tbcms/PendingApprovals.jpg) center center;
           background-size:cover;" class="slider-size"></div>
-                            </div>
+                                            </div>
 
-                            <div class="item">
+                                            <div class="item">
 
-                                <div style="background:url(/img/tbcms/Comments.jpg) center center;
+                                                <div style="background:url(/img/tbcms/Comments.jpg) center center;
           background-size:cover;" class="slider-size"></div>
+                                            </div>
+                                        </div>
+
+                                        @*Left and right controls *@
+                                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
+
                         </div>
-
-                        @*Left and right controls *@
-                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
                     </div>
 
-                </div>
 
       <p> Developed a content management system as an ASP.NET MVC Web Application. The application was designed using an n-tier architecture with unit testing. It includes ASP.NET Identity and accesses a SQL Server database.</p>
                 <p>The application allows an administrator to create content contributor accounts as well as create and manage all content. Content included blog posts, static pages, and comments. The project incorporated TinyMCE to allow the administrator to create styled posts without having to write any HTML. Public users can view approved posts, sort posts by hashtag/category, and submit comments for approval.</p>
@@ -133,54 +152,68 @@
             <div>
                 <p>
                     <b>Tic Tac Toe </b>
-                    June 2015 <a href="#tictactoe" data-toggle="collapse"><span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span></a>
-                    <div id="tictactoe" class="collapse">
-                        <div id="myCarousel-2" class="carousel slide" data-ride="carousel">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" data-slide-to="2"></li>
-                            </ol>
+                    June 2015 <a data-toggle="modal" data-target="#myModal-2"><span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span></a>
 
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner" role="listbox">
-                                <div class="item active">
+                    <div id="myModal-2" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Tic Tac Toe</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="myCarousel-2" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                                        </ol>
 
-                                    <div style="background:url(/img/ttt/Enteraspace.jpg) center center;
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="item active">
+
+                                                <div style="background:url(/img/ttt/Enteraspace.jpg) center center;
           background-size:cover;" class="slider-ttt-size"></div>
 
-                                </div>
+                                            </div>
 
-                                <div class="item">
+                                            <div class="item">
 
-                                    <div style="background:url(/img/ttt/Enteraspace2.jpg) center center;
+                                                <div style="background:url(/img/ttt/Enteraspace2.jpg) center center;
           background-size:cover;" class="slider-ttt-size"></div>
-                                </div>
+                                            </div>
 
-                                <div class="item">
+                                            <div class="item">
 
-                                    <div style="background:url(/img/ttt/win.jpg) center center;
+                                                <div style="background:url(/img/ttt/win.jpg) center center;
           background-size:cover;" class="slider-ttt-size"></div>
-                                </div>
+                                            </div>
 
-                               
+
+                                        </div>
+
+                                        @*Left and right controls *@
+                                        <a class="left carousel-control" href="#myCarousel-2" role="button" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarousel-2" role="button" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
                             </div>
 
-                            @*Left and right controls *@
-                            <a class="left carousel-control" href="#myCarousel-2" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="right carousel-control" href="#myCarousel-2" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
                         </div>
-
                     </div>
-                   
-</p>
+
+                </p>
 
                 <p>
                     <b>Vending Machine</b>
@@ -232,9 +265,6 @@
                 collapsible: true,
                 active: false,
                 icons: false
-            });
-            $('.carousel').carousel({
-                interval: false
             });
         }
 );

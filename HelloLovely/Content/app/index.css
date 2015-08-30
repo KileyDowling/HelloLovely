@@ -1,10 +1,15 @@
 ﻿.slider-ttt-size {
-    height: 310px; /* This is your slider height */
+    height: 395px; /* This is your slider height */
 margin: auto;
 }
 
+.carousel-indicators li {
+
+display: none;
+}
+
 .slider-size {
-height: 400px; /* This is your slider height */
+height: 420px; /* This is your slider height */
 margin: auto;
 }
 
