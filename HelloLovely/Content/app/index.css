@@ -1,5 +1,19 @@
-﻿
-#projects a {
+﻿.slider-ttt-size {
+    height: 310px; /* This is your slider height */
+margin: auto;
+}
+
+.slider-size {
+height: 400px; /* This is your slider height */
+margin: auto;
+}
+
+.carousel {
+width:100%; 
+margin:0 auto; /* center your carousel if other than 100% */ 
+}
+
+a span {
     color: #f1276a;
 }
 
