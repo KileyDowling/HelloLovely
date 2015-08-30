@@ -1,5 +1,22 @@
-﻿.slider-ttt-size {
-    height: 395px; /* This is your slider height */
+﻿/*.slider-ttt-size {
+    height: 395px; /* This is your slider height
+margin: auto;
+}*/
+
+div .c-wrapper{
+    width: 95%; 
+    margin: auto;
+}
+
+
+div .t-wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+width: 100%; /* use this, or not */
 margin: auto;
 }
 
@@ -8,10 +25,10 @@ margin: auto;
 display: none;
 }
 
-.slider-size {
-height: 420px; /* This is your slider height */
+/*.slider-size {
+height: 420px; /* This is your slider height 
 margin: auto;
-}
+}*/
 
 .carousel {
 width:100%; 

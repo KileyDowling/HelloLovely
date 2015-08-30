@@ -70,7 +70,7 @@
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                                     <h4 class="modal-title">Tech Blog CMS</h4>
                                 </div>
-                                <div class="modal-body">
+                                <div class="modal-body c-wrapper">
                                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                                         <!-- Indicators -->
                                         <ol class="carousel-indicators">
@@ -84,27 +84,33 @@
                                         <div class="carousel-inner" role="listbox">
                                             <div class="item active">
 
-                                                <div style="background:url(/img/tbcms/TBCMS.jpg) center center;
-          background-size:cover;" class="slider-size"></div>
+                                                @*<div style="background:url(/img/tbcms/TBCMS.jpg) center center;
+                        background-size:cover;" class="slider-size"></div>*@
+                                                <img src="~/img/tbcms/TBCMS.jpg">
+                                            </div>
+
+                                            <div class="item">
+
+                                                @*<div style="background:url(/img/tbcms/DraftPost.jpg) center center;
+                        background-size:cover;" class="slider-size"></div>*@
+                                                <img src="~/img/tbcms/DraftPost.jpg">
 
                                             </div>
 
                                             <div class="item">
 
-                                                <div style="background:url(/img/tbcms/DraftPost.jpg) center center;
-          background-size:cover;" class="slider-size"></div>
+                                                @*<div style="background:url(/img/tbcms/PendingApprovals.jpg) center center;
+                        background-size:cover;" class="slider-size"></div>*@
+                                                <img src="~/img/tbcms/Pending.jpg">
+
                                             </div>
 
                                             <div class="item">
 
-                                                <div style="background:url(/img/tbcms/PendingApprovals.jpg) center center;
-          background-size:cover;" class="slider-size"></div>
-                                            </div>
+                                                @*<div style="background:url(/img/tbcms/Comments.jpg) center center;
+                        background-size:cover;" class="slider-size"></div>*@
+                                                <img src="~/img/tbcms/Comments.jpg">
 
-                                            <div class="item">
-
-                                                <div style="background:url(/img/tbcms/Comments.jpg) center center;
-          background-size:cover;" class="slider-size"></div>
                                             </div>
                                         </div>
 
@@ -161,7 +167,7 @@
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                                     <h4 class="modal-title">Tic Tac Toe</h4>
                                 </div>
-                                <div class="modal-body">
+                                <div class="modal-body t-wrapper">
                                     <div id="myCarousel-2" class="carousel slide" data-ride="carousel">
                                         <!-- Indicators -->
                                         <ol class="carousel-indicators">
@@ -174,21 +180,27 @@
                                         <div class="carousel-inner" role="listbox">
                                             <div class="item active">
 
-                                                <div style="background:url(/img/ttt/Enteraspace.jpg) center center;
-          background-size:cover;" class="slider-ttt-size"></div>
+                                                @*<div style="background:url(/img/ttt/Enteraspace.jpg) center center;
+                        background-size:cover;" class="slider-ttt-size"></div>*@
+
+                                                <img src="~/img/ttt/Enteraspace.jpg" />
 
                                             </div>
 
                                             <div class="item">
 
-                                                <div style="background:url(/img/ttt/Enteraspace2.jpg) center center;
-          background-size:cover;" class="slider-ttt-size"></div>
+                                                @*<div style="background:url(/img/ttt/Enteraspace2.jpg) center center;
+                        background-size:cover;" class="slider-ttt-size"></div>*@
+                                                <img src="~/img/ttt/Enteraspace2.jpg" />
+
                                             </div>
 
                                             <div class="item">
 
-                                                <div style="background:url(/img/ttt/win.jpg) center center;
-          background-size:cover;" class="slider-ttt-size"></div>
+                                                @*<div style="background:url(/img/ttt/win.jpg) center center;
+                        background-size:cover;" class="slider-ttt-size"></div>*@
+                                                <img src="~/img/ttt/win.jpg" />
+
                                             </div>
 
 
@@ -272,81 +284,3 @@
    
    
 }
-
-@*<div id="projects" class="collapse">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-3">
-                <a href="#guild" data-toggle="collapse"><h3>Guild Projects</h3> </a>
-                <br />
-                <a href="#simple" data-toggle="collapse"><h3>Simple Programs</h3></a>
-                <br />
-                <a href="#labs" data-toggle="collapse"><h3>Labs & Exercises</h3></a>
-            </div>
-            <div class="col-md-7">
-                <div id="guild" class="collapse">
-
-                    <b>Technology Blog</b>
-                    August 2015
-                    <div>
-                        Developed a content management system as an ASP.NET MVC Web Application. The Tech Blog allowed an administrator to create content contributor accounts as well as create and manage all content. Content included blog posts, static pages, and comments. The project incorporated TinyMCE to allow the administrator to create styled posts without having to write any HTML. Public users could view approved posts, sort posts by hashtag/category, and submit comments for approval.
-                    </div>
-
-                    <br />
-
-                    <b>HR Portal</b>
-                    July 2015
-                    <div>
-                        Developed ASP.NET MVC web application according to specifications. The HR Portal allows users to view and manage documents, employees, and timesheets. Includes WebAPI and AngularJS
-                    </div>
-
-                    <br />
-                    <b> Flooring Mastery Project</b>
-                    June 2015
-                    <div>
-                        Developed a fully functioning console application based on an nTier architecture according to specifications. The application allows for reading and writing flooring orders.
-                    </div>
-                    <hr />
-
-                </div>
-                <div id="simple" class="collapse">
-                    <div>
-                        <p>
-                            <b>Tic Tac Toe</b>
-                            June 2015
-                        </p>
-
-                        <p>
-                            <b>Vending Machine</b>
-                            Spring 2015
-                        </p>
-
-                        <p>
-                            <b>Program with 2 Features</b>
-                            Spring 2015
-                        </p>
-
-                        <p>
-                            <b>Encrypt and Decrypt Message</b>
-                            Spring 2015
-                        </p>
-
-                        <p>
-                            <b>Without Operators</b>
-                            Spring 2015
-                        </p>
-                    </div>
-                    <hr />
-
-                </div>
-                <div id="labs" class="collapse">
-                    <div>
-                        <p><b>JavaScript <a href="/Portfolio/JavaScriptLabs"><span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span></a></b></p>
-                        <p><b>C#</b></p>
-                        <p><b>Coding Katas</b></p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>*@

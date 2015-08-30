@@ -212,7 +212,7 @@
     <Content Include="img\kileydowling.jpg" />
     <Content Include="img\tbcms\Comments.jpg" />
     <Content Include="img\tbcms\DraftPost.jpg" />
-    <Content Include="img\tbcms\PendingApprovals.jpg" />
+    <Content Include="img\tbcms\Pending.JPG" />
     <Content Include="img\tbcms\TBCMS.jpg" />
     <Content Include="img\TicTacToe.png" />
     <Content Include="img\ttt\Enteraspace.jpg" />
