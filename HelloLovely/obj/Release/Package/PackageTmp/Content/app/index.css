@@ -62,11 +62,11 @@ a {
 }
 
 #contact a {
-            color: #999999;
+            color: #878383;
 }
 
 .learnMore {
-        color: #676262;
+        color: #6f6969;
         font-size: 15px;
         
 
@@ -76,19 +76,19 @@ a {
   margin-bottom: 10px;
 }
 #projects div {
-    color: #999999;
+    color: #878383;
     font-size: 15px;
 }
 
 
 
 .skills {
-        color: #676262;
+        color: #6f6969;
 
 }
 #skills ul li {
               font-size: 16px;
-              color: #999999;
+              color: #878383;
 
 }
 .name {
