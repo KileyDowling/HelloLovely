@@ -2,21 +2,23 @@
     height: 395px; /* This is your slider height
 margin: auto;
 }*/
-
+.carousel-control {
+    left: -30px;
+}
 div .c-wrapper{
-    width: 95%; 
+    width: 100%; 
     margin: auto;
 }
 
 
 div .t-wrapper{
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
 .carousel-inner > .item > img, 
 .carousel-inner > .item > a > img{
-width: 100%; /* use this, or not */
+width: 85%; /* use this, or not */
 margin: auto;
 }
 
@@ -51,12 +53,6 @@ a {
 
 }
 
-#fullName {
-    font-family: 'The Girl Next Door', cursive;
-        color: #f1276a;
-
-}
-
 .contact {
     font-size: 14px;
 }
@@ -70,7 +66,7 @@ a {
 }
 
 .learnMore {
-        color: #999999;
+        color: #676262;
         font-size: 15px;
         
 
@@ -87,7 +83,7 @@ a {
 
 
 .skills {
-        color: #999999;
+        color: #676262;
 
 }
 #skills ul li {
