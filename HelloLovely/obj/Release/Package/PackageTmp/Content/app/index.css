@@ -11,6 +11,13 @@ div .c-wrapper{
 }
 
 
+img {
+        margin-top: 80px;
+
+}
+
+
+
 div .t-wrapper{
     width: 100%;
     margin: auto;
@@ -30,10 +37,11 @@ display: none;
 /*.slider-size {
 height: 420px; /* This is your slider height 
 margin: auto;
-}*/
+} */
 
 .carousel {
 width:100%; 
+height: 450px;
 margin:0 auto; /* center your carousel if other than 100% */ 
 }
 
@@ -89,6 +97,7 @@ a {
 #skills ul li {
               font-size: 16px;
               color: #878383;
+                  margin: 6px;
 
 }
 .name {
