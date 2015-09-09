@@ -207,7 +207,6 @@
     <Content Include="Content\Site.css" />
     <Content Include="img\Capture.jpg" />
     <Content Include="img\cZDgoyjC.jpg" />
-    <Content Include="img\hellolovelylogo.jpg" />
     <Content Include="img\IMG_0465.jpg" />
     <Content Include="img\IMG_0465.PNG" />
     <Content Include="img\kdowling.jpg" />
@@ -216,7 +215,6 @@
     <Content Include="img\tbcms\DraftPost.jpg" />
     <Content Include="img\tbcms\Pending.JPG" />
     <Content Include="img\tbcms\TBCMS.jpg" />
-    <Content Include="img\TicTacToe.png" />
     <Content Include="img\ttt\Enteraspace.jpg" />
     <Content Include="img\ttt\Enteraspace2.jpg" />
     <Content Include="img\ttt\win.jpg" />

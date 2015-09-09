@@ -54,6 +54,7 @@ function Mod35(n) {
     } else if (n % 5 == 0) {
         return true;
     }
+    return false;
 }
 
 function Sum(numbers) {
